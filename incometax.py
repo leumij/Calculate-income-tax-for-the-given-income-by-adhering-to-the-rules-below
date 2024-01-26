@@ -3,5 +3,13 @@
 
 # Pseudocode
 # Ask user for Total income
+total_income = int(input("please introduce your total income: "))
+
 # Solve for income tax
-# Print for total tax
+first = int(10000) * float(0.0)
+second = int(10000) * float(0.1)
+remain = total_income - int(20000)
+final = remain * float(0.2)
+total_tax = first + second + final
+
+
