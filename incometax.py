@@ -12,4 +12,5 @@ remain = total_income - int(20000)
 final = remain * float(0.2)
 total_tax = first + second + final
 
-
+# Print for total tax
+print("$1000 * 0 % + $1000 * 0,1 % + $ ",remain, " * 0,2 = $",totalTax)
